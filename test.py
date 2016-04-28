@@ -9,7 +9,7 @@ from google.appengine.api import mail
 import webapp2
 
 class database(ndb.Model):
-    """Models a Guestbook entry with an author, content, avatar, and date."""
+
     bomma = ndb.BlobProperty()
     date = ndb.DateTimeProperty(auto_now_add=True)
 	
